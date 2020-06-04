@@ -7,11 +7,11 @@ let package = Package(
     products: [
         .library(name: "MediaBrowser", targets: ["MediaBrowser"])
     ],
+    dependencies: [ "SDWebImage", "UICircularProgressRing"],
     targets: [
         .target(
             name: "MediaBrowser",
-            path: "",
-            dependencies: ["SDWebImage", "UICircularProgressRing"]
+            path: ""
         ),
     ],
     swiftLanguageVersions: [.v5]

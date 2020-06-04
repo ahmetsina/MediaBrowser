@@ -15,6 +15,7 @@ let package = Package(
         .target(
             name: "MediaBrowser",
             path: ""
+            dependencies: ["SDWebImage"]
         ),
     ],
     swiftLanguageVersions: [.v5]

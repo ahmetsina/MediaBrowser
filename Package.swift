@@ -16,7 +16,7 @@ let package = Package(
             name: "MediaBrowser",
             path: "",
             dependencies: ["SDWebImage", "UICircularProgressRing"]
-        ),
+        )
     ],
     swiftLanguageVersions: [.v5]
 )

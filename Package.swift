@@ -14,9 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "MediaBrowser",
-            path: "",
             dependencies: ["SDWebImage", "UICircularProgressRing"]
         )
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )

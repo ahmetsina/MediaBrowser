@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "MediaBrowser",
-            path: "",
+            path: "Media",
             dependencies: ["SDWebImage", "UICircularProgressRing"]
         )
     ],
